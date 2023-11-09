@@ -16,3 +16,11 @@
 .second-heading{
     color:pink;
 }
+:root{
+    --text-color: red;
+    /* --name-var:bla */
+}
+#heading-id{
+    color: var(--text-color);
+    /* var(--name-var) */
+}
