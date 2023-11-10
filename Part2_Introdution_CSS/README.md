@@ -3,4 +3,6 @@
 `Internal`  
     Bên Trong
 `External`   
+    Bên ngoài
 `Inline`  
+    Trong thẻ
