@@ -1,0 +1,57 @@
+/* ! VIDU1 */
+.title{
+    color: red;
+    font-size: medium;
+}
+/* ! VIDU2 */
+.title.heading{
+    color: black;
+}
+
+/* ! VIDU3 */
+.box .parent-son{
+    color: blue;
+    font-size: large;
+}
+
+.parent-son{
+    color: red;
+    font-size: larger;
+}
+
+/* ! VIDU4 */
+h1{
+    color: violet;
+}
+
+/* ! VIDU5 */
+p.para{
+    color: aqua;
+}
+
+/* ! VIDU6 */
+.title1, .title2, .title3{
+    color:darkolivegreen;
+}
+.title1{
+    font-style: italic;
+}
+.title2{
+    text-decoration: line-through;
+}
+.title3{
+    text-decoration: underline;
+}
+
+.red-color{
+    color: red;
+}
+
+/* ! VUDU8 */
+.box9 > .title9{
+    color: aqua;
+}
+
+.title10 + .title10{
+    color: brown;
+}
