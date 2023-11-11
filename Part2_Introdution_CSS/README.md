@@ -6,7 +6,6 @@
     Bên ngoài
 `Inline`  
     Trong thẻ  
-
 ## Class & id
 `HTML & Css cơ bản: id vs class`
 ```html
@@ -34,3 +33,17 @@
     color:pink;
 }
 ```
+## Độ ưu tiên
+`- Internal, External:`
+-> Cái nào viết mới hơn sẽ ưu tiên hơn
+`- Inline : 1000`
+`- #id : 100`
+`- class : 10`
+`- tag : 1`
+`- Equal specificity`
+-> Sự giống nhau khi gọi element, ai mới hơn lại đc ưu tiên, hoặc áp dụng class + id để có 110 đ ... v.v ..
+`- Universal selector and inherited`
+-> tất cả thẻ chung được áp dụng nhưng độ ưu tiên nhỏ nhất.
+`- important`
+        `!important`
+            ->`Áp dụng cao nhất`
