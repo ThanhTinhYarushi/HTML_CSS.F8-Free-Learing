@@ -20,23 +20,7 @@
     border-style: solid;
     border-color: red;
 
-/*********************************************************************
- *                          /* VIẾT DÀI */                           *
- *                      BORDER-TOP-WIDTH: 10PX;                      *
- *                     BORDER-RIGHT-WIDTH: 12PX;                     *
- *                     BORDER-BOTTOM-WIDTH: 8PX;                     *
- *                     BORDER-LEFT-WIDTH: 12PX;                      *
- * /* CHỈ TOP -> BORDER STYLE SOLID CÓ KIỂU WIDTH MẶC ĐỊNH LÀ 20PX*/ *
- *                      BORDER-TOP-WIDTH: 10PX;                      *
- *                     BORDER-RIGHT-WIDTH: 0PX;                      *
- *                     BORDER-BOTTOM-WIDTH: 0PX;                     *
- *                      BORDER-LEFT-WIDTH: 0PX;                      *
- *********************************************************************/
 
-/***************************
- *        VIẾT NGẮN        *
- * BORDER: 10PX SOLID RED; *
- ***************************/
 }
 .box2{
     background-color: greenyellow;
