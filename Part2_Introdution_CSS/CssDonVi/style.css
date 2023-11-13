@@ -1,5 +1,26 @@
-.box{
+.box-absolute{
     width: 100px;
     height: 100px;
     background-color: red;
+}
+
+.box-relative{
+    width: 50%;
+    height: 100px;
+    background-color: green;
+}
+
+html{
+    font-size: 100%;
+}
+
+.test-rem{
+    font-size: 1rem;
+}
+
+
+.box-vw-vh{
+    width:100vw ;
+    height: 10vh;
+    background-color: blue;
 }
