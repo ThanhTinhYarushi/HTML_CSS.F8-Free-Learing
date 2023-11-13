@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css func</title>
+    <style>
+        .box{
+            width: calc(50% + 50% + 1px);
+            height: 120px;
+            background: rgb(223, 9, 9);
+            /*
+                rgb giồng như rgba nhưng không có trong suốt
+            */
+            /*
+                calc() -> tính toán
+                * có thể cộng tương đối với tuyệt đối
+            */
+            /*
+                Tình huống có 1 url nếu sau này muốn sửa thì phải đổi cả 2 chỗ
+            */
+        }
+        .box::after{
+            content: "Xin Chào các bạn";
+            content: attr(data-title);
+        }
+        a::after{
+            content: "(" attr(href) ")";
+        }
+    </style>
+</head>
+<body>
+    <div class="box" data-title="Đây là box màu đỏ"></div>
+    <a href="https://www.facebook.com/profile.php?id=100086715692972">Link fb của mình</a>
+</body>
+</html>
