@@ -1,0 +1,25 @@
+html{
+    font-size: 25px;
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    background-color: #333;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.box2{
+    background-color: greenyellow;
+}
+.box3{
+    background-color: brown;
+}
