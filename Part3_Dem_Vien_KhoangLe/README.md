@@ -1,6 +1,6 @@
 # Padding, Margin, Box-sizing
-
-## padding
+-> padding border đều làm tăng kích thước của elements
+## Padding
 có nghĩa là đệm thêm
 ```css
 .box1{
@@ -16,7 +16,22 @@ có nghĩa là đệm thêm
     padding: 10px 12px 8px 6px; -> theo chiều kim đồng hồ
 
 }
+```
 
-
-    
+## Border
+-> là lớp được định nghĩa là lớp vỏ của 1 elements, khi inspect sẽ thấy nét liền
+```css
+.box1{
+    background-color: #333;
+    padding: 10px;
+/*************************************
+ *           CƠ BẢN BORDER           *
+ * BORDER-WIDTH -> CHIỀU RỘNG BORDER *
+ *       BORDER-STYLE -> STYLE       *
+ *       BORDER-COLOR -> COLOR       *
+ *************************************/
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+}
 ```
