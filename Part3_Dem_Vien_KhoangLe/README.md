@@ -53,3 +53,15 @@ có nghĩa là đệm thêm
  *        VIẾT NGẮN        *
  * BORDER: 10PX SOLID RED; *
  ***************************/
+
+
+## margin tương tự như kéo đẩy nó trong không gian đời thực
+-> không làm dày lên, chỉ kéo đẩy 
+
+## ??
+```css
+float : left
+```
+nếu tổng kích thước vượt quá web có thể không đúng ý
+
+=> viết ngắn : margin : 10px
