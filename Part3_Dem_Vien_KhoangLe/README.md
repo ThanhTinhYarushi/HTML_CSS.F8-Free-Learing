@@ -65,3 +65,23 @@ float : left
 nếu tổng kích thước vượt quá web có thể không đúng ý
 
 => viết ngắn : margin : 10px
+
+
+## box-sizing
+```css
+html{
+    margin: 0;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: darkorchid;
+    color: white;
+    padding: 16px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+```
+
+mặc định box-sizing -> content-box
+huỷ -> unset
