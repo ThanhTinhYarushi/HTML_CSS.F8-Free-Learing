@@ -88,8 +88,7 @@ html{
     font-size: 100%;
 }
 ```
-
-vậy thì 1rem sẽ bằng 16px
+->vậy thì 1rem sẽ bằng 16px
 
 ```
 Con số 62.5% là gì?
