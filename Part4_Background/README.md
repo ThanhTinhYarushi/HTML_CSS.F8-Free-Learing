@@ -45,3 +45,9 @@ background-clip: quyết định độ bao phủ của background (chỉ phủ c
 - content-box: đổ từ content
 
 ` sử dụng nếu yêu cầu chỉ cần đổ màu nền từ content, padding hoặc border`
+
+## background-origin
+backgound-origin: vị trí bắt đầu của background-image (từ góc trên bên trái) (bắt đầu từ border / bắt đầu từ padding / bắt đầu từ content)  
+- mặc định là padding-box
+- content-box
+- border-box
