@@ -65,3 +65,9 @@ Cách nhớ cho các bạn trong bài này với các giá trị không phải l
 
 50% 0% thì sẽ là cách đường viền bên trái 50% và cách phía trên 0% thì sẽ tương đương với hình ở giữa sát mép phía trên.
 0% 100% thì sẽ là cách đường viền bên trái 0% và cách phía trên 100% nghĩa là mép trái của box.
+
+## shorthand
+
+background: mau/url() -> repeat/no-repeat -> position -> / size(contain/cover/relative units)
+
+* Trước background-size: phải có /
