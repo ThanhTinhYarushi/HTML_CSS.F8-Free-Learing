@@ -51,3 +51,17 @@ backgound-origin: vị trí bắt đầu của background-image (từ góc trên
 - mặc định là padding-box
 - content-box
 - border-box
+
+## background-postision
+truc x - truc y
+background-position: top right;  
+nếu viết 1 giá trị, giá trị thứ 2 sẽ là center
+
+vd đang ở `background-position: top right;` 
+chỉ cần background-position: top 20px right 20px;  
+số âm sẽ ngược lại
+
+Cách nhớ cho các bạn trong bài này với các giá trị không phải là Keyword thì sẽ là: CÁCH ĐƯỜNG VIỀN BÊN TRÁI VÀ PHÍA TRÊN Ví dụ:
+
+50% 0% thì sẽ là cách đường viền bên trái 50% và cách phía trên 0% thì sẽ tương đương với hình ở giữa sát mép phía trên.
+0% 100% thì sẽ là cách đường viền bên trái 0% và cách phía trên 100% nghĩa là mép trái của box.
