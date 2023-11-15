@@ -86,7 +86,17 @@ dùng để tạo header hoặc element cố định
 }
 ```
 ### sticky -> bam dinh
-
+```css
+.header-sticky {
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    background-color: firebrick;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+```
 ### chú ý
 
 nếu thẻ nào phụ thuộc dùng absolute, cố định dùng fixed
