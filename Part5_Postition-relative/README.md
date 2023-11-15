@@ -70,5 +70,23 @@ lấy thẻ cha gần nhất có thuộc tính position làm gốc toạ độ
 }
 ```
 ### fixed -> phu thuoc khung trinh duyet
+dùng để tạo header hoặc element cố định
 
+```css
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: darkslategrey;
+    position: fixed;
+    top: 0;
+
+    /* có thể không đặt width */
+    right: 0;
+    left: 0;
+}
+```
 ### sticky -> bam dinh
+
+### chú ý
+
+nếu thẻ nào phụ thuộc dùng absolute, cố định dùng fixed
