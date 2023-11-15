@@ -6,3 +6,37 @@ h1{
     left: 100px;
     /* đè lên  */
 }
+
+.box{
+    width: 100%;
+    height: 120px;
+    background-color: #333;
+    position: relative;
+}
+.box-child{
+    width: 50px;
+    height: 50px;
+    background-color: ivory;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+/* .box-child {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+} */
+
+
+.box2 {
+    width: 200px;
+    height: 60px;
+    background-color: aquamarine;
+    position: relative;
+}
