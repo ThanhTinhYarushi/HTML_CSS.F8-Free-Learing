@@ -13,5 +13,5 @@ main size : song song main axis
 cross size: ss cross axis  
 
 ## Thuộc tính
-display: flex || inline-flex
+- display: flex || inline-flex
 `Quyết định xem có sử dụng flexbox hay không`
